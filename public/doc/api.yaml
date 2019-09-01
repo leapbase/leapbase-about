@@ -1,0 +1,22 @@
+swagger: "2.0"
+
+info:
+  version: 1.0.0
+  title: About API
+  description: About Information API 
+
+schemes:
+  - http
+host: leapbase.com
+basePath: /about
+
+paths:
+  /info:
+    get:
+      summary: Get about information 
+      description: Get about information
+      produces:
+        - application/json
+      responses:
+        default:
+          description: successful operation

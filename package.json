@@ -1,0 +1,8 @@
+{
+  "name": "about",
+  "dependencies": {
+  },
+  "scripts": {
+    "test_about": "find -L ./test -name 'about_test.js' | xargs mocha -R spec"
+  }
+}
